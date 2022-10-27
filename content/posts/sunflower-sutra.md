@@ -2,7 +2,7 @@
 date: 2022-10-01T21:42:09Z
 title: '12 Random Words: The unnoticed math behind a sentence and its significance
   in Web3'
-author: Allen Ginsberg
+author: Vamsi Ramakrishnan
 hero_image: "/content/images/adrien-olichon--aOsCcTJXWY-unsplash.jpg"
 
 ---
