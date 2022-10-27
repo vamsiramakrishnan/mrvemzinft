@@ -1,13 +1,12 @@
 ---
-date: 2019-08-08T22:42:09.000+00:00
-title: Sunflower Sutra
+date: 2022-10-01T21:42:09Z
+title: '12 Random Words: The unnoticed math behind a sentence and its significance
+  in Web3'
 author: Allen Ginsberg
 hero_image: "/content/images/adrien-olichon--aOsCcTJXWY-unsplash.jpg"
 
 ---
 ![](https://mirror-media.imgix.net/publication-images/_3i0p-cJepmMp4NwAyzl-.png?height=146&width=292&h=146&w=292&auto=compress)
-
-**12 Random Words: The unnoticed math behind a sentence and its significance in Web3**
 
 ## For the impatient
 
