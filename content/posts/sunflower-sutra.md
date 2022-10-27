@@ -12,11 +12,11 @@ hero_image: "/content/images/adrien-olichon--aOsCcTJXWY-unsplash.jpg"
 
 The internals of a non-custodial software wallet like MetaMask and How it uses a clever combination of randomness, mnemonics, one way functions, hashing, deterministic derivations and asymmetric encryption to generate one sentence of 12 - 24 words that can create or recover the numbers that hold the key to all your identity representations and assets across multiple blockchains, achieve all of this while storing nothing on centralised servers.
 
-![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%271640%27%20height=%272360%27/%3e)![The end to end process](https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2FPD9LXeLDH-jVYONd2C9ve.png&w=3840&q=90)
+!\[\](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%271640%27%20height=%272360%27/%3e)![The end to end process](https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2FPD9LXeLDH-jVYONd2C9ve.png&w=3840&q=90)
 
 The end to end process
 
-![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%271640%27%20height=%272360%27/%3e)![](https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2FgWJxkBSQb-Eb41JH8XRZ5.png&w=3840&q=90)
+!\[\](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%271640%27%20height=%272360%27/%3e)![](https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2FgWJxkBSQb-Eb41JH8XRZ5.png&w=3840&q=90)
 
 ## On Randomness
 
@@ -34,13 +34,13 @@ The proposition that no-one except has access to your keys to your digital asset
 
 There was no way to access this technology until February 2009 when BitcoinQT, the first ever wallet in town that required users to download the entire blockchain locally to make it usable. It held information about the random string of numbers that represent who we are and which in-turn points to what we are worth and allowed to spend/do in blockspace. The private key which gave you access to your digital assets was stored in an unencrypted wallet.dat file in the desktop. There are horror stories of users deleting the wallet.dat file and losing access to BTCs worth millions today.
 
-![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27773%27%20height=%27473%27/%3e)![BitcoinQT : Source bitcoin.com](https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2FHR1HCjPo2MSab5dlAOBbW.webp&w=1920&q=90)
+!\[\](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27773%27%20height=%27473%27/%3e)![BitcoinQT : Source bitcoin.com](https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2FHR1HCjPo2MSab5dlAOBbW.webp&w=1920&q=90)
 
 BitcoinQT : Source bitcoin.com
 
 Since the wallet was a full local copy of the blockchain as time progressed, users had to wait up to a week to really be able to get the data to sync and start transacting. You couldn’t transact without mining, there was no supply, no one was transacting with Bitcoin. There were no exchanges, no liquidity pools, no reserves, no swapping.
 
-![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%271122%27%20height=%27650%27/%3e)![Source:bitcoin.com](https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2Fdc3zpnAZFOfhH0dkHPRhy.webp&w=3840&q=90)
+!\[\](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%271122%27%20height=%27650%27/%3e)![Source:bitcoin.com](https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2Fdc3zpnAZFOfhH0dkHPRhy.webp&w=3840&q=90)
 
 Source:bitcoin.com
 
@@ -51,14 +51,12 @@ Fast forward to 2022, it takes me a couple minutes to set up MetaMask on my Andr
 ### What piqued my curiosity to investigate further. ?
 
     When I expected that I’d need a whole lot of copying and exporting from my first device; to start from where I left in a different device. Since I was using Metamask, which is a non-custodial wallet;
-    
 
 All I needed was the secret Backup Phrase. It did not recover just one Key but all keys and all addresses from all networks when I selected that network in the new device.
 
     How did this magic portal work. What kind of sorcery was this. 
-    
 
-![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%271600%27%20height=%271380%27/%3e)![Restoring the wallet from a secret backup phrase](https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2FadsTaZ2lCLaAdPhATTxS0.png&w=3840&q=90)
+!\[\](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%271600%27%20height=%271380%27/%3e)![Restoring the wallet from a secret backup phrase](https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2FadsTaZ2lCLaAdPhATTxS0.png&w=3840&q=90)
 
 Restoring the wallet from a secret backup phrase
 
@@ -88,7 +86,6 @@ The Source for a Random Number Generator is **“**`Entropy`**”**
 
     RNG      Random Number Generator
     PRNG     Pseudo Random Number Generator
-    
 
 ### RNG vs PRNG
 
@@ -97,11 +94,10 @@ True Random number Generators would stop when you stop typing gibberish on your 
 So how do these wallets tap into this randomness, most PRNGs tap into Linux/Mac Device userland files.
 
     Wallets --> Browser --> OS Kernel --> /dev/urandom or /dev/random
-    
 
 As Metamask responds eloquently
 
-![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27890%27%20height=%27221%27/%3e)![Metamask about randomness](https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2F6T_eZtNy-RqMqMLlBWuLi.png&w=1920&q=90)
+!\[\](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27890%27%20height=%27221%27/%3e)![Metamask about randomness](https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2F6T_eZtNy-RqMqMLlBWuLi.png&w=1920&q=90)
 
 Metamask about randomness
 
@@ -125,9 +121,8 @@ The vice versa is also true. When I use another device, I don’t need the rando
     
     Recovery Phase
     12-24 Word Phrase ==> Random Number
-    
 
-![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%271640%27%20height=%272360%27/%3e)![From Entropy to Seed Phrase](https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2FBM3jSt4njZfgMSq1-N-zj.jpeg&w=3840&q=90)
+!\[\](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%271640%27%20height=%272360%27/%3e)![From Entropy to Seed Phrase](https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2FBM3jSt4njZfgMSq1-N-zj.jpeg&w=3840&q=90)
 
 From Entropy to Seed Phrase
 
@@ -136,7 +131,6 @@ From Entropy to Seed Phrase
     from bip_utils import Bip39MnemonicGenerator, Bip39WordsNum
     mnemonic = Bip39MnemonicGenerator().FromWordsNumber(Bip39WordsNum.WORDS_NUM_24)
     print(mnemonic)
-    
 
 See it in action it using this replit link
 
@@ -146,7 +140,7 @@ Now you have the master seed. With this seed you can recover/ derive or regenera
 
 What’s the probability of someone brute force guessing my private key
 
-![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%271200%27%20height=%27675%27/%3e)![Trevor or Metamask the underlying principles are the same](https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2FMMtJre78brXTHKwaeFASm.png&w=3840&q=90)
+!\[\](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%271200%27%20height=%27675%27/%3e)![Trevor or Metamask the underlying principles are the same](https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2FMMtJre78brXTHKwaeFASm.png&w=3840&q=90)
 
 Trevor or Metamask the underlying principles are the same
 
@@ -154,20 +148,19 @@ Trevor or Metamask the underlying principles are the same
 
 Gregory Maxwell, considered to be one of the developers of Bitcoin, came up with the concept of HD wallets. Hierarchical deterministic wallets. In simple terms, if you had a parent key, you can spin off generations of childRen. Thereby backing up the parent key is sufficient. Before HD-wallets came into being we had to deal with Sequential Wallets, where every address and key to that address had to be backed up separately.
 
-![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%271200%27%20height=%27675%27/%3e)![](https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2FuJmXURWzYmH7DSfY4YUbS.png&w=3840&q=90)
+!\[\](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%271200%27%20height=%27675%27/%3e)![](https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2FuJmXURWzYmH7DSfY4YUbS.png&w=3840&q=90)
 
 ## How the magic works
 
 Descending from the master node is a tree of an infinite number of private keys. To determine a particular key you need the master node (your mnemonic seed) and the location of the key in the tree (called its “path”). The tree is created using an algorithm defined by `BIP 32` called the CKD function. You can reach any node on the HD tree given the node’s position and the value of the master node.
 
-![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%271640%27%20height=%272360%27/%3e)![](https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2F2fohaaOQYMoZpvSveoXdM.jpeg&w=3840&q=90)
+!\[\](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%271640%27%20height=%272360%27/%3e)![](https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2F2fohaaOQYMoZpvSveoXdM.jpeg&w=3840&q=90)
 
 To put things in perspective, the structure looks like this at 4 levels or depths. `BIP0044` codifies this as a multi-account hierarchy.
 
     m / purpose’ / coin_type’ / account’ / change / address_index
-    
 
-![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27800%27%20height=%27493%27/%3e)![](https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2F-WCtPzxIQatklNLeamK9j.png&w=1920&q=90)
+!\[\](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27800%27%20height=%27493%27/%3e)![](https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2F-WCtPzxIQatklNLeamK9j.png&w=1920&q=90)
 
 Users of Ethereum are utilizing an address with a derivation path of `m/44'/60'/0'/0/0`.
 
